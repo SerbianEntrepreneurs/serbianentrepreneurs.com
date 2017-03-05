@@ -1,0 +1,13 @@
+theme:                      "serbianentrepreneurs.com"
+title:                      "Serbian Entrepreneurs"
+baseURL:                    "https://SerbianEntrepeneurs.com/"
+description:                "A tight network of Serbian entrepreneurs supporting each other."
+config:                     "config.yaml"
+defaultExtension:           "md"
+MetaDataFormat:             "yaml"
+LanguageCode:               "en"
+Params:
+    SocialImage: "./cover.jpg"
+    NextMeeting:
+        Month: "March"
+        Day: "7"
