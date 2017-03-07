@@ -1,1 +1,17 @@
 <h3 class="section">Real People, Real Experiences</h3>
+
+<div class="card-parent">
+    {{ range $index, $member := $.Site.Params.Members}}
+    <div class="card">
+        <div class="avatar">
+            <img src="{{ $member.image }}" alt="{{ $member.name }}">
+        </div>
+        <div class="bio name">
+            {{ $member.name }}
+        </div>
+        <div class="bio description">
+            {{ $member.description }}
+        </div>
+    </div>
+    {{ end }}
+</div>

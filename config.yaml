@@ -14,3 +14,20 @@ Params:
     description: "A tight network of Serbian entrepreneurs supporting each other."
     about: "Serbian Entrepreneurs is an organization based in San Francisco."
     email: "contact@serbianentrepreneurs.com"
+    Members:
+      - name: Dragan Petrovic
+        description: Raised Series A
+        image: "/images/pics/dragan.jpg"
+      - name: Sasha Novakovic
+        description: Investor
+        image: "/images/pics/sasha.jpg"
+      - name: John Milionvic
+        description: Successful Exit
+        image: "/images/pics/john.jpg"
+      - name: Maza Zecevic
+        description: Y Combinator
+        image: "/images/pics/maja.jpg"
+      - name: Luka Erceg
+        description: CEO + Investor
+        image: "/images/pics/luka.jpg"
+        
