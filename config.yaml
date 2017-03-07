@@ -12,3 +12,5 @@ Params:
         Month: "March"
         Day: "7"
     description: "A tight network of Serbian entrepreneurs supporting each other."
+    about: "Serbian Entrepreneurs is an organization based in San Francisco."
+    email: "contact@serbianentrepreneurs.com"

@@ -2,6 +2,10 @@ html, body {
   font-family: 'Cairo', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #1d506b;
+}
 .grey {
   background-color: #f3f3f3;
 }
@@ -11,7 +15,8 @@ h3.section {
   text-align: center;
   font-weight: 700;
   color: black;
-  padding: 55px 0 50px;
+  padding-top: 55px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -68,6 +73,13 @@ ul.menu li:nth-child(1) {
   .title {
     margin-top: 140px;
   }
+}
+
+p.description {
+  font-size: 10px;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 50px;
 }
 
 .credit {
