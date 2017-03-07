@@ -1,8 +1,18 @@
+<div class="container" id="header">
+  {{ partial "header.html" . }}
+</div>
+<div class="container" id="members">
+  {{ partial "members.html" . }}
+</div>
+<div class="container grey" id="about">
+  {{ partial "about.html" . }}
+</div>
+<div class="container" id="events">
+  {{ partial "events.html" . }}
+</div>
+<div class="container grey" id="contact">
+  {{ partial "contact.html" . }}
+</div>
 <div class="container">
-  {{ partial "header.html" }}
-  {{ partial "members.html" }}
-  {{ partial "about.html" }}
-  {{ partial "events.html" }}
-  {{ partial "contact.html" }}
-  {{ partial "footer.html" }}
+  {{ partial "footer.html" . }}
 </div>
