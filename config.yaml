@@ -16,15 +16,15 @@ Params:
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
-        description: Raised Series A
+        description: COO, Raised Series A
         image: "/images/pics/dragan.jpg"
-      - name: Sasha Novakovic
+      - name: Sasha Novakovich
         description: Investor
         image: "/images/pics/sasha.jpg"
-      - name: John Milionvic
-        description: Successful Exit
+      - name: John Milinovich
+        description: CEO of URX (Exited)
         image: "/images/pics/john.jpg"
-      - name: Maza Zecevic
+      - name: Maja Zecevic
         description: Y Combinator
         image: "/images/pics/maja.jpg"
       - name: Luka Erceg
