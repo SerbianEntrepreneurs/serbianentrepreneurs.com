@@ -5,7 +5,7 @@ This is the source code for [SerbianEntrepreneurs.com](https://serbianentreprene
 
 ## Running a Development server
 
-This site is built using [Hugo](http://gethugo.io).
+This site is built using [Hugo](http://gohugo.io).
 
 ```
 # Install Hugo first using Brew or Apt
