@@ -16,34 +16,50 @@ Params:
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
-        description: COO, Raised Series A
+        description: COO, Nura
         image: "/images/pics/dragan.jpg"
+      - name: Brano Perkovich
+        description: Chief Investment Officer, SF 49ers
+        image: "/images/pics/brano.jpg"
+      - name: Tihomir Bajic
+        description: VP Engineering, LTSE
+        image: "/images/pics/tiho.jpg"
       - name: Sasha Novakovich
-        description: Investor
+        description: CEO, Alchemy
         image: "/images/pics/sasha.jpg"
-      - name: John Milinovich
-        description: CEO of URX (Exited)
-        image: "/images/pics/john.jpg"
       - name: Maja Zecevic
-        description: Y Combinator
+        description: CEO, Opionato
         image: "/images/pics/maja.jpg"
+      - name: Lazar Stojkovic
+        description: Mentor, 500 Startups
+        image: "/images/pics/lazar.jpg"
+      - name: John Milinovich
+        description: CEO, URX (Exited)
+        image: "/images/pics/john.jpg"
       - name: Luka Erceg
-        description: CEO + Investor
+        description: CEO, Drylet
         image: "/images/pics/luka.jpg"
       - name: Marko Mandic
-        description: CEO Skopus Media
+        description: CEO, Skopus Media
         image: "/images/pics/marko.jpg"
       - name: Olja Dimitrijevic
-        description: Dir Eng Xvela
+        description: Dir Engineering, Xvela
         image: "/images/pics/olja.jpg"
-      - name: Tiho Bajic
-        description: VP Eng LTSE
-        image: "/images/pics/tiho.jpg"
       - name: Alex Kolicich
-        description: Founding Partner 8VC
+        description: Founding Partner, 8VC
         image: "/images/pics/alex.jpg"
       - name: Philip Thomas
-        description: CEO Staffjoy
+        description: CEO, Staffjoy
         image: "/images/pics/philip.jpg"
+      - name: Voja Lalich
+        description: Managing Partner, StartLabs Ventures
+        image: "/images/pics/voja.jpg"
+      - name: Sasha Ostojic
+        description: SVP Engineering, Cruise Automation
+        image: "/images/pics/sashao.jpg"
+      - name: Gorjan Hrustanovic
+        description: Associate, Biotechnology Value Fund
+        image: "/images/pics/gorjan.jpg"
+
 
 
