@@ -52,7 +52,7 @@ Params:
         description: CEO, Staffjoy
         image: "/images/pics/philip.jpg"
       - name: Voja Lalich
-        description: Managing Partner, StartLabs
+        description: Partner, StartLabs
         image: "/images/pics/voja.jpg"
       - name: Sasha Ostojic
         description: SVP Engineering, Cruise
