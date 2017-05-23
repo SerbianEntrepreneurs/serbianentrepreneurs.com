@@ -19,7 +19,7 @@ Params:
         description: COO, Nura
         image: "/images/pics/dragan.jpg"
       - name: Brano Perkovich
-        description: Chief Investment Officer, SF 49ers
+        description: Investor, SF 49ers
         image: "/images/pics/brano.jpg"
       - name: Tihomir Bajic
         description: VP Engineering, LTSE
@@ -52,14 +52,14 @@ Params:
         description: CEO, Staffjoy
         image: "/images/pics/philip.jpg"
       - name: Voja Lalich
-        description: Managing Partner, StartLabs Ventures
+        description: Managing Partner, StartLabs
         image: "/images/pics/voja.jpg"
       - name: Sasha Ostojic
-        description: SVP Engineering, Cruise Automation
+        description: SVP Engineering, Cruise
         image: "/images/pics/sashao.jpg"
       - name: Gorjan Hrustanovic
-        description: Associate, Biotechnology Value Fund
-        image: "/images/pics/gorjan.jpg"
+        description: Associate, BVF
+        image: "/images/pics/gorjan.png"
 
 
 
