@@ -30,7 +30,20 @@ Params:
       - name: Luka Erceg
         description: CEO + Investor
         image: "/images/pics/luka.jpg"
-
-
+      - name: Marko Mandic
+        description: CEO Skopus Media
+        image: "/images/pics/marko.jpg"
+      - name: Olja Dimitrijevic
+        description: Dir Eng Xvela
+        image: "/images/pics/olja.jpg"
+      - name: Tiho Bajic
+        description: VP Eng LTSE
+        image: "/images/pics/tiho.jpg"
+      - name: Alex Kolicich
+        description: Founding Partner 8VC
+        image: "/images/pics/alex.jpg"
+      - name: Philip Thomas
+        description: CEO Staffjoy
+        image: "/images/pics/philip.jpg"
 
 
