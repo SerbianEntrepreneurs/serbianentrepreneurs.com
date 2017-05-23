@@ -12,7 +12,7 @@ Params:
         Month: "June"
         Day: "15"
     description: "A closely-knit, invite-only network of Serbian entrepreneurs supporting each other."
-    about: "Serbian Entrepreneurs is a non-profit organization based in San Francisco. Started in September 2016, the organization currently counts over 40 members primarily in the San Francisco Bay Area. Centered around an active group forum and monthly meetings, the organization provides a private venue for members to support each other."
+    about: "Serbian Entrepreneurs is a non-profit, pay-it-forward organization based in San Francisco. Started in September 2016 as an invite-only group, the organization has grown to over 40 active members. Centered around a group forum and monthly meetings, Serbian Entrepreneurs is a private venue and support network for our member entrepreneurs."
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
