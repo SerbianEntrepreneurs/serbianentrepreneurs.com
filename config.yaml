@@ -9,10 +9,10 @@ Params:
     URL: "https://SerbianEntrepreneurs.com/"
     SocialImage: "/images/cover.jpg"
     NextMeeting:
-        Month: "March"
-        Day: "7"
-    description: "A tight network of Serbian entrepreneurs supporting each other."
-    about: "Serbian Entrepreneurs is an organization based in San Francisco."
+        Month: "June"
+        Day: "15"
+    description: "A closely-knit, invite-only network of Serbian entrepreneurs supporting each other."
+    about: "Serbian Entrepreneurs is a non-profit organization based in San Francisco. Started in September 2016, the organization currently counts over 40 members primarily in the San Francisco Bay Area. Centered around an active group forum and monthly meetings, the organization provides a private venue for members to support each other."
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
@@ -30,4 +30,7 @@ Params:
       - name: Luka Erceg
         description: CEO + Investor
         image: "/images/pics/luka.jpg"
-        
+
+
+
+
