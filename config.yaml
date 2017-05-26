@@ -49,7 +49,7 @@ Params:
         description: Founding Partner, 8VC
         image: "/images/pics/alex.jpg"
       - name: Philip Thomas
-        description: CEO, Staffjoy
+        description: Co-Founder, Moonlight
         image: "/images/pics/philip.jpg"
       - name: Voja Lalich
         description: Partner, StartLabs
