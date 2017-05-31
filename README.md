@@ -15,4 +15,4 @@ hugo server --watch
 
 ## Deployment
 
-The master branch is continuously deployed using [Netlify](https://netflify.com).
+The master branch is continuously deployed using [Netlify](https://netlify.com).
