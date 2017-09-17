@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="header-container">
+        <header class="header-bar">
+            <h1 class="logo"><img src="/images/logo.png" alt="Serbian Entrepreneurs"/></h1>
+            <nav class="header-nav">
+                <ul class="menu">
+                    <li class="menu-link" data-to="#members">Members</li>
+                    <li class="menu-link" data-to="#about">About</li>
+                    <li class="menu-link" data-to="#events">Events</li>
+                    <li class="menu-link" data-to="#contact">Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="header-description">
+            {{ $.Site.Params.description }}
+        </div>
+
+        <a class="header-contact" href="mailto:{{$.Site.Params.email}}">Contact</a>
+    </div>
+</div>
+

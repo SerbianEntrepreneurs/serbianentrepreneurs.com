@@ -1,4 +1,4 @@
-theme:                      "serbianentrepreneurs.com"
+theme:                      "serbianentrepreneurs-v2"
 title:                      "Serbian Entrepreneurs"
 config:                     "config.yaml"
 defaultExtension:           "md"

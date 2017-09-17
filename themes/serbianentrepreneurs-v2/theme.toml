@@ -1,0 +1,7 @@
+name = "serbianentrepreneurs.com"
+description = "A hugo theme for Serbian Entrepreneurs"
+min_version = 0.15
+
+[author]
+  name = "Philip Thomas"
+  homepage = "https://www.philipithomas.com"
