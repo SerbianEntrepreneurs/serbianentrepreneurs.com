@@ -8,11 +8,14 @@ baseURL: "https://www.SerbianEntrepreneurs.com/"
 Params:
     URL: "https://SerbianEntrepreneurs.com/"
     SocialImage: "/images/cover.jpg"
-    NextMeeting:
-        Month: "June"
-        Day: "15"
-    description: "A closely-knit, invite-only network of Serbian entrepreneurs supporting each other."
-    about: "Serbian Entrepreneurs is a non-profit, pay-it-forward organization based in San Francisco. Started in September 2016 as an invite-only group, the organization has grown to over 40 active members. Centered around a group forum and monthly meetings, Serbian Entrepreneurs is a private venue and support network for our member entrepreneurs."
+    NextMeetingNYC:
+        Month: "September"
+        Day: "21"
+    NextMeetingSF:
+        Month: "September"
+        Day: "28"
+    description: "A closely-knit, pay-it-forward network of Serbian entrepreneurs."
+    about: "Serbian Entrepreneurs is a non-profit, pay-it-forward organization based in San Francisco and New York. Started in September 2016 as an invite-only group, the organization has grown to over 70 active members. Centered around a group forum and monthly meetings, Serbian Entrepreneurs is a private venue and support network for our member entrepreneurs."
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
@@ -40,7 +43,7 @@ Params:
         description: CEO, Drylet
         image: "/images/pics/luka.jpg"
       - name: Marko Mandic
-        description: CEO, Skopus Media
+        description: CEO, Breza
         image: "/images/pics/marko.jpg"
       - name: Olja Dimitrijevic
         description: Dir Engineering, Xvela
