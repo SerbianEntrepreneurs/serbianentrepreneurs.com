@@ -9,13 +9,13 @@ Params:
     URL: "https://SerbianEntrepreneurs.com/"
     SocialImage: "/images/cover.jpg"
     NextMeetingNYC:
-        Month: "September"
-        Day: "21"
+        Month: "October"
+        Day: "26"
     NextMeetingSF:
-        Month: "September"
-        Day: "28"
-    description: "A closely-knit, pay-it-forward network of Serbian entrepreneurs."
-    about: "Serbian Entrepreneurs is a non-profit, pay-it-forward organization based in San Francisco and New York. Started in September 2016 as an invite-only group, the organization has grown to over 70 active members. Centered around a group forum and monthly meetings, Serbian Entrepreneurs is a private venue and support network for our member entrepreneurs."
+        Month: "October"
+        Day: "26"
+    description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
+    about: "Serbian Entrepreneurs is a non-profit organization started in September 2016 fostering the Serbian startup ecosystem around the globe through holistic access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York."
     email: "contact@serbianentrepreneurs.com"
     Members:
       - name: Dragan Petrovic
