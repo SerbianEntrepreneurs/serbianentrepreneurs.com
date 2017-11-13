@@ -29,80 +29,220 @@ Params:
       - name: Novi Sad
         code: novi-sad
     Members:
+      - name: Maja Zecevic
+        description: CEO, Opionato
+        image: "/images/pics/maja.jpg"
+        linkedin: https://www.linkedin.com/in/zecevicmaja/
+        location: committee
+      - name: Iva Messy
+        description: Director of HR, Altamont
+        image: "/images/pics/iva.jpg"
+        linkedin: https://www.linkedin.com/in/ivamessy/
+        location: committee
+      - name: Sasha Novakovich
+        description: CEO, Alchemy
+        image: "/images/pics/sasha.jpg"
+        linkedin: https://www.linkedin.com/in/sashanovakovich/
+        location: committee
       - name: Dragan Petrovic
         description: COO, Nura
         image: "/images/pics/dragan.jpg"
-        linkedin: https://www.linkedin.com/
+        linkedin: https://www.linkedin.com/in/dragan-petrovic-a81a74a/
         location: committee
       - name: Brano Perkovich
         description: Investor, SF 49ers
         image: "/images/pics/brano.jpg"
-        linkedin: https://www.linkedin.com/
+        linkedin: https://www.linkedin.com/in/brano-perkovich-346b9a2/
         location: committee
-      - name: Tihomir Bajic
-        description: VP Engineering, LTSE
-        image: "/images/pics/tiho.jpg"
-        linkedin: https://www.linkedin.com/in/markomandic/
-        location: san-francisco
-      - name: Sasha Novakovich
-        description: CEO, Alchemy
-        image: "/images/pics/sasha.jpg"
-        linkedin: https://www.linkedin.com/
-        location: san-francisco
-      - name: Maja Zecevic
-        description: CEO, Opionato
-        image: "/images/pics/maja.jpg"
-        linkedin: https://www.linkedin.com/
-        location: new-york
-      - name: Lazar Stojkovic
+      - name: Philip Thomas
+        description: Co-Founder, Moonlight
+        image: "/images/pics/philip.jpg"
+        linkedin: https://www.linkedin.com/in/philipithomas/
+        location: committee
+      - name: Miloš Čitaković
+        description: Founder, Bridge & Fabrika.nyc
+        image: "/images/pics/milos.jpg"
+        linkedin: https://www.linkedin.com/in/citakovic/
+        location: committee
+      - name: Lazar Stojković
         description: Mentor, 500 Startups
         image: "/images/pics/lazar.jpg"
-        linkedin: https://www.linkedin.com/
-        location: new-york
-      - name: John Milinovich
-        description: CEO, URX (Exited)
-        image: "/images/pics/john.jpg"
-        linkedin: https://www.linkedin.com/
-        location: new-york
+        linkedin: https://www.linkedin.com/in/lazarstojkovic/
+        location: committee
+      - name: Tihomir Bajić
+        description: VP Engineering, LTSE
+        image: "/images/pics/tiho.jpg"
+        linkedin: https://www.linkedin.com/in/tihomirbajic/
+        location: committee
       - name: Luka Erceg
         description: CEO, Drylet
         image: "/images/pics/luka.jpg"
-        linkedin: https://www.linkedin.com/
+        linkedin: https://www.linkedin.com/in/lerceg/
         location: committee
       - name: Marko Mandic
         description: CEO, Breza
         image: "/images/pics/marko.jpg"
         linkedin: https://www.linkedin.com/in/markomandic/
         location: committee
-      - name: Olja Dimitrijevic
-        description: Dir Engineering, Xvela
-        image: "/images/pics/olja.jpg"
-        linkedin: https://www.linkedin.com/
-        location: committee
-      - name: Alex Kolicich
-        description: Founding Partner, 8VC
-        image: "/images/pics/alex.jpg"
-        linkedin: https://www.linkedin.com/
-        location: committee
+
+      - name: Maja Zecevic
+        description: CEO, Opionato
+        image: "/images/pics/maja.jpg"
+        linkedin: https://www.linkedin.com/in/zecevicmaja/
+        location: san-francisco
+      - name: Iva Messy
+        description: Director of HR, Altamont
+        image: "/images/pics/iva.jpg"
+        linkedin: https://www.linkedin.com/in/ivamessy/
+        location: san-francisco
+      - name: Sasha Novakovich
+        description: CEO, Alchemy
+        image: "/images/pics/sasha.jpg"
+        linkedin: https://www.linkedin.com/in/sashanovakovich/
+        location: san-francisco
+      - name: Dragan Petrovic
+        description: COO, Nura
+        image: "/images/pics/dragan.jpg"
+        linkedin: https://www.linkedin.com/in/dragan-petrovic-a81a74a/
+        location: san-francisco
+      - name: Brano Perkovich
+        description: Investor, SF 49ers
+        image: "/images/pics/brano.jpg"
+        linkedin: https://www.linkedin.com/in/brano-perkovich-346b9a2/
+        location: san-francisco
       - name: Philip Thomas
         description: Co-Founder, Moonlight
         image: "/images/pics/philip.jpg"
-        linkedin: https://www.linkedin.com/
-        location: novi-sad
+        linkedin: https://www.linkedin.com/in/philipithomas/
+        location: san-francisco
+      - name: Miloš Čitaković
+        description: Founder, Bridge & Fabrika.nyc
+        image: "/images/pics/milos.jpg"
+        linkedin: https://www.linkedin.com/in/citakovic/
+        location: san-francisco
+      - name: Lazar Stojković
+        description: Mentor, 500 Startups
+        image: "/images/pics/lazar.jpg"
+        linkedin: https://www.linkedin.com/in/lazarstojkovic/
+        location: san-francisco
+      - name: Tihomir Bajić
+        description: VP Engineering, LTSE
+        image: "/images/pics/tiho.jpg"
+        linkedin: https://www.linkedin.com/in/tihomirbajic/
+        location: san-francisco
+      - name: Luka Erceg
+        description: CEO, Drylet
+        image: "/images/pics/luka.jpg"
+        linkedin: https://www.linkedin.com/in/lerceg/
+        location: san-francisco
+      - name: Marko Mandic
+        description: CEO, Breza
+        image: "/images/pics/marko.jpg"
+        linkedin: https://www.linkedin.com/in/markomandic/
+        location: san-francisco
+      - name: John Milinovich
+        description: CEO, URX (Exited)
+        image: "/images/pics/john.jpg"
+        linkedin: https://www.linkedin.com/in/jmilinovich/
+        location: san-francisco
+      - name: Olja Dimitrijevic
+        description: Dir Engineering, Xvela
+        image: "/images/pics/olja.jpg"
+        linkedin: https://www.linkedin.com/in/oljadimitrijevic/
+        location: san-francisco
+      - name: Alex Kolicich
+        description: Founding Partner, 8VC
+        image: "/images/pics/alex.jpg"
+        linkedin: https://www.linkedin.com/in/alex-kolicich-b71732a/
+        location: san-francisco
       - name: Voja Lalich
         description: Partner, StartLabs
         image: "/images/pics/voja.jpg"
-        linkedin: https://www.linkedin.com/
-        location: los-angeles
+        linkedin: https://www.linkedin.com/in/vojalalich/
+        location: san-francisco
       - name: Sasha Ostojic
         description: SVP Engineering, Cruise
         image: "/images/pics/sashao.jpg"
-        linkedin: https://www.linkedin.com/
-        location: los-angeles
+        linkedin: https://www.linkedin.com/in/ostojic/
+        location: san-francisco
       - name: Gorjan Hrustanovic
         description: Associate, BVF
         image: "/images/pics/gorjan.png"
-        linkedin: https://www.linkedin.com/
+        linkedin: https://www.linkedin.com/in/gorjan-hrustanovic-a966a72a/
+        location: san-francisco
+
+      - name: Filip Bajovic
+        description: CEO, Label Kings
+        image: "/images/pics/filip.jpg"
+        linkedin: https://www.linkedin.com/in/filip-bajovic-6a074939/
+        location: new-york
+      - name: Miloš Čitaković
+        description: Founder, Bridge & Fabrika.nyc
+        image: "/images/pics/milos.jpg"
+        linkedin: https://www.linkedin.com/in/citakovic/
+        location: new-york
+      - name: Sasha Jokic
+        description: CEO, Formdwell
+        image: "/images/pics/sashaj.jpg"
+        linkedin: https://www.linkedin.com/in/sasha-jokic-68b09127/
+        location: new-york
+      - name: Vladimir Vukicevic
+        description: CEO, Meural
+        image: "/images/pics/vlad.jpg"
+        linkedin: https://www.linkedin.com/in/vukicevic/
+        location: new-york
+      - name: Nemanja Petrovic
+        description: Technical Lead, Google
+        image: "/images/pics/nemanja.png"
+        linkedin: http://www.ifp.illinois.edu/~nemanja/resume.html
+        location: new-york
+      - name: Bojan Bajic
+        description: Associate, Ares Management
+        image: "/images/pics/bojan.jpg"
+        linkedin: https://www.linkedin.com/in/bojanbajic/
+        location: new-york
+      - name: Aleksandar Jovicic
+        description: CEO, Sembient
+        image: "/images/pics/aleksj.jpg"
+        linkedin: https://www.linkedin.com/in/aleksandar-jovicic-a206bba/
+        location: new-york
+
+
+      - name: Nina Montée Karp
+        description: Co-founder, Happiest Baby
+        image: "/images/pics/nina.jpg"
+        linkedin: https://www.linkedin.com/in/nina-mont%C3%A9e-karp-234a8885/
+        location: los-angeles
+      - name: Andrej Kostresevic
+        description: CEO, Nomads & Expack
+        image: "/images/pics/andrej.jpg"
+        linkedin: https://www.linkedin.com/in/andrejkostresevic/
+        location: los-angeles
+      - name: Slaven Moro
+        description: CEO, Entropia Health
+        image: "/images/pics/slaven.jpg"
+        linkedin: https://www.linkedin.com/in/slaven-moro-phd-10b4637/
+        location: los-angeles
+
+      - name: Marko Gacesa
+        description: Founder & CPO, Alchemy
+        image: "/images/pics/markog.jpg"
+        linkedin: https://www.linkedin.com/in/slaven-moro-phd-10b4637/
+        location: novi-sad
+      - name: Mirko Topalski
+        description: CEO, Eipix Entertainment
+        image: "/images/pics/mirko.jpg"
+        linkedin: https://www.linkedin.com/in/mirkotopalski/
+        location: novi-sad
+      - name: Martin Pavlik
+        description: CEO, Pet2Net
+        image: "/images/pics/martin.jpg"
+        linkedin: https://www.linkedin.com/in/martin-pavlik-85046827/
+        location: novi-sad
+      - name: Nenad Milanovic
+        description: CEO, Coing
+        image: "/images/pics/nenad.jpg"
+        linkedin: https://www.linkedin.com/in/milanovicnenad/
         location: novi-sad
 
 
