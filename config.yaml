@@ -17,52 +17,93 @@ Params:
     description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
     about: "Serbian Entrepreneurs is an apolitical, non-governmental, non-profit organization started in September 2016 in Silicon Valley, by successful entrepreneurs of Serbian descent fostering the Serbian startup ecosystem around the globe through comprehensive access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York. We are next expanding to Los Angeles, California and Novi Sad, Serbia."
     email: "contact@serbianentrepreneurs.com"
+    Locations:
+      - name: Committee
+        code: committee
+      - name: San Francisco
+        code: san-francisco
+      - name: New York
+        code: new-york
+      - name: Los Angeles
+        code: los-angeles
+      - name: Novi Sad
+        code: novi-sad
     Members:
       - name: Dragan Petrovic
         description: COO, Nura
         image: "/images/pics/dragan.jpg"
+        linkedin: https://www.linkedin.com/
+        location: committee
       - name: Brano Perkovich
         description: Investor, SF 49ers
         image: "/images/pics/brano.jpg"
+        linkedin: https://www.linkedin.com/
+        location: committee
       - name: Tihomir Bajic
         description: VP Engineering, LTSE
         image: "/images/pics/tiho.jpg"
+        linkedin: https://www.linkedin.com/in/markomandic/
+        location: san-francisco
       - name: Sasha Novakovich
         description: CEO, Alchemy
         image: "/images/pics/sasha.jpg"
+        linkedin: https://www.linkedin.com/
+        location: san-francisco
       - name: Maja Zecevic
         description: CEO, Opionato
         image: "/images/pics/maja.jpg"
+        linkedin: https://www.linkedin.com/
+        location: new-york
       - name: Lazar Stojkovic
         description: Mentor, 500 Startups
         image: "/images/pics/lazar.jpg"
+        linkedin: https://www.linkedin.com/
+        location: new-york
       - name: John Milinovich
         description: CEO, URX (Exited)
         image: "/images/pics/john.jpg"
+        linkedin: https://www.linkedin.com/
+        location: new-york
       - name: Luka Erceg
         description: CEO, Drylet
         image: "/images/pics/luka.jpg"
+        linkedin: https://www.linkedin.com/
+        location: committee
       - name: Marko Mandic
         description: CEO, Breza
         image: "/images/pics/marko.jpg"
+        linkedin: https://www.linkedin.com/in/markomandic/
+        location: committee
       - name: Olja Dimitrijevic
         description: Dir Engineering, Xvela
         image: "/images/pics/olja.jpg"
+        linkedin: https://www.linkedin.com/
+        location: committee
       - name: Alex Kolicich
         description: Founding Partner, 8VC
         image: "/images/pics/alex.jpg"
+        linkedin: https://www.linkedin.com/
+        location: committee
       - name: Philip Thomas
         description: Co-Founder, Moonlight
         image: "/images/pics/philip.jpg"
+        linkedin: https://www.linkedin.com/
+        location: novi-sad
       - name: Voja Lalich
         description: Partner, StartLabs
         image: "/images/pics/voja.jpg"
+        linkedin: https://www.linkedin.com/
+        location: los-angeles
       - name: Sasha Ostojic
         description: SVP Engineering, Cruise
         image: "/images/pics/sashao.jpg"
+        linkedin: https://www.linkedin.com/
+        location: los-angeles
       - name: Gorjan Hrustanovic
         description: Associate, BVF
         image: "/images/pics/gorjan.png"
+        linkedin: https://www.linkedin.com/
+        location: novi-sad
 
 
 

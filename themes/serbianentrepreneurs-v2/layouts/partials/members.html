@@ -1,12 +1,22 @@
-<div class="members-box"></div>
 
-<h3 class="members-header">Our Members</h3>
+<div class="members-head">
+    <h3 class="members-header">Our Members</h3>
+
+    <ul class="members-locations">
+        {{ range $index, $location := $.Site.Params.Locations}}
+        <li data-location="{{ $location.code }}" class="location"> {{ $location.name }}</li>
+        {{ end }}
+    </ul>   
+</div>
+
 
 <div class="card-parent">
     {{ range $index, $member := $.Site.Params.Members}}
-    <div class="card">
+    <div class="card hidden {{ $member.location }} ">
         <div class="avatar">
-            <img src="{{ $member.image }}" alt="{{ $member.name }}">
+            <a href="{{ $member.linkedin }}">
+                <img src="{{ $member.image }}" alt="{{ $member.name }}">
+            </a>
         </div>
         <div class="bio-name">
             {{ $member.name }}

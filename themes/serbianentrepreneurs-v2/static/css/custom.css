@@ -325,32 +325,32 @@ a {
 .members {
   padding: 1em 10%;
   position: relative;
+  background-color: #f2f2f2;
+/* box-shadow: 2.194px 2.046px 22.32px 1.68px rgba(223, 223, 223, 0.9); */
+}
+
+.members-head {
+  margin-bottom: 3em;
 }
 
 @media (min-width: 800px) {
 
+  .members-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .members {
-    padding: 3em 0 3em;
+    padding: 2em;
     position: relative;
     margin: 3em 10% 0;
-  }
-  .members-box {
-      background-color: rgb(255, 255, 255);
-      box-shadow: 2.194px 2.046px 22.32px 1.68px rgba(223, 223, 223, 0.9);
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 80%;
-      height: 100%;
-      z-index: 1;
-  }
+    }
 }
 
 
 .members-header {
-  margin-bottom: 3em;
-  z-index: 5;
-  position: relative;
+  margin: 1em 0;
 }
 
 @media (min-width: 800px) {
@@ -358,20 +358,31 @@ a {
     position: relative;
   }
 
-  .members-header::before {
-    content: '';
-    display: block;
-    width: 40%;
-    height: 2px;
-    background: #c6363c;
-    position: absolute;
-    bottom: 0;
-    right: -5%;
-  }
-
   .card-parent {
     margin: 0 -2.5%;
   }
+}
+
+.members-locations {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.location {
+  margin: 0;
+  padding: 1em;
+  border-bottom: 2px solid #777777;
+  background: #fff;
+  cursor: pointer;
+  line-height: 1;
+  font-size: .8em;
+  text-align: center;
+}
+
+.location.selected{
+  border-bottom: 2px solid #c6363c;
 }
 
 .card-parent {
@@ -383,9 +394,20 @@ a {
 }
 
 .card {
-  width: 150px;
-  padding: 0 3.2% 4em;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 1em;
   text-align: center;
+}
+
+.card.hidden {
+  display:none;
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 25%;
+  }
 }
 
 .avatar {
@@ -394,8 +416,8 @@ a {
   height: 150px;
   width: 150px;
   border-radius: 150px;
-  margin-bottom: 2em;
   border: 2px solid white;
+  margin: 0 auto 2em;
 }
 
 .avatar img {
