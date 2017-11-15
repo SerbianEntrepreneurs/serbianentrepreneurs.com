@@ -4,10 +4,10 @@ config:                     "config.yaml"
 defaultExtension:           "md"
 MetaDataFormat:             "yaml"
 LanguageCode:               "en"
-baseURL: "https://www.SerbianEntrepreneurs.com/"
+baseURL: "http://www.SerbianEntrepreneurs.com/"
 Params:
-    URL: "https://SerbianEntrepreneurs.com/"
-    SocialImage: "/images/cover.jpg"
+    URL: "http://www.SerbianEntrepreneurs.com/"
+    SocialImage: "http://www.SerbianEntrepreneurs.com/images/b-bg.sq.600.png"
     NextMeetingNYC:
         Month: "November"
         Day: "29"
