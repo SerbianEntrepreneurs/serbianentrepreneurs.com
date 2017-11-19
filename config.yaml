@@ -100,6 +100,56 @@ Params:
         image: "/images/pics/sasha.jpg"
         linkedin: https://www.linkedin.com/in/sashanovakovich/
         location: san-francisco
+      - name: Lena Petrovic
+        description: Attorney, Perkins
+        image: "/images/pics/lena.jpg"
+        linkedin: https://www.linkedin.com/in/jovanka-ciric-vujkovic-6195a71/
+        location: san-francisco
+      - name: Olja Dimitrijevic
+        description: Dir Engineering, Xvela
+        image: "/images/pics/olja.jpg"
+        linkedin: https://www.linkedin.com/in/oljadimitrijevic/
+        location: san-francisco
+      - name: Neda Cvijetic
+        description: Autonomous Vehicles, NVidia
+        image: "/images/pics/neda.jpg"
+        linkedin: https://www.linkedin.com/in/neda-cvijetic-4a05b17/
+        location: san-francisco
+      - name: Bojana Parman
+        description: Engineering, RichRelevance
+        image: "/images/pics/bojana.jpg"
+        linkedin: https://www.linkedin.com/in/bojana-miloradovic-parman-6506892/
+        location: san-francisco
+      - name: Ivana Stojanovic
+        description: Co-founder, Indoor Reality
+        image: "/images/pics/ivana.jpg"
+        linkedin: https://www.linkedin.com/in/ivana-stojanovic-6691a05/
+        location: san-francisco
+      - name: Jovana Knezevic
+        description: Engineering, Broadway Technology
+        image: "/images/pics/jovana.jpg"
+        linkedin: https://www.linkedin.com/in/jovana-knezevic-a4b19420/
+        location: san-francisco
+      - name: Jovanka Ciric Vujkovic
+        description: CEO, Knewaira
+        image: "/images/pics/jovanka.jpg"
+        linkedin: https://www.linkedin.com/in/jovanka-ciric-vujkovic-6195a71/
+        location: san-francisco
+      - name: Natasa Kordic
+        description: Policy, Acumen
+        image: "/images/pics/natasa.jpg"
+        linkedin: https://www.linkedin.com/in/natasakordic/
+        location: san-francisco
+      - name: Tihomir Bajić
+        description: VP Engineering, LTSE
+        image: "/images/pics/tiho.jpg"
+        linkedin: https://www.linkedin.com/in/tihomirbajic/
+        location: san-francisco
+      - name: Lazar Stojković
+        description: Mentor, 500 Startups
+        image: "/images/pics/lazar.jpg"
+        linkedin: https://www.linkedin.com/in/lazarstojkovic/
+        location: san-francisco
       - name: Dragan Petrovic
         description: COO, Nura
         image: "/images/pics/dragan.jpg"
@@ -115,21 +165,6 @@ Params:
         image: "/images/pics/philip.jpg"
         linkedin: https://www.linkedin.com/in/philipithomas/
         location: san-francisco
-      - name: Miloš Čitaković
-        description: Founder, Bridge & Fabrika.nyc
-        image: "/images/pics/milos.jpg"
-        linkedin: https://www.linkedin.com/in/citakovic/
-        location: san-francisco
-      - name: Lazar Stojković
-        description: Mentor, 500 Startups
-        image: "/images/pics/lazar.jpg"
-        linkedin: https://www.linkedin.com/in/lazarstojkovic/
-        location: san-francisco
-      - name: Tihomir Bajić
-        description: VP Engineering, LTSE
-        image: "/images/pics/tiho.jpg"
-        linkedin: https://www.linkedin.com/in/tihomirbajic/
-        location: san-francisco
       - name: Luka Erceg
         description: CEO, Drylet
         image: "/images/pics/luka.jpg"
@@ -144,11 +179,6 @@ Params:
         description: CEO, URX (Exited)
         image: "/images/pics/john.jpg"
         linkedin: https://www.linkedin.com/in/jmilinovich/
-        location: san-francisco
-      - name: Olja Dimitrijevic
-        description: Dir Engineering, Xvela
-        image: "/images/pics/olja.jpg"
-        linkedin: https://www.linkedin.com/in/oljadimitrijevic/
         location: san-francisco
       - name: Alex Kolicich
         description: Founding Partner, 8VC
@@ -169,6 +199,91 @@ Params:
         description: Associate, BVF
         image: "/images/pics/gorjan.png"
         linkedin: https://www.linkedin.com/in/gorjan-hrustanovic-a966a72a/
+        location: san-francisco
+      - name: Aleksandar Cabrilo
+        description: CEO, HTEC Group
+        image: "/images/pics/cabrilo.jpg"
+        linkedin: https://www.linkedin.com/in/cabriloa/
+        location: san-francisco
+      - name: Srdjan Savicic
+        description: VP, China Oceanwide
+        image: "/images/pics/srdjan.jpg"
+        linkedin: https://www.linkedin.com/in/savicic/
+        location: san-francisco
+      - name: Tony DeFranceschi
+        description: Founder, iON Ventures
+        image: "/images/pics/tony.jpg"
+        linkedin: https://www.linkedin.com/in/tony-defranceschi-535176/
+        location: san-francisco
+      - name: Nebojsa Sabovic
+        description: co-founder, Focure
+        image: "/images/pics/nebojsa.jpg"
+        linkedin: https://www.linkedin.com/in/nsabovic/
+        location: san-francisco
+      - name: Aleksandar Gargenta
+        description: co-founder, Marakana
+        image: "/images/pics/agargenta.jpg"
+        linkedin: https://www.linkedin.com/in/aleksandargargenta/
+        location: san-francisco
+      - name: Armann Kojich
+        description: Founder, Greenvolt & Apon
+        image: "/images/pics/armann.jpg"
+        linkedin: https://www.linkedin.com/in/armann/
+        location: san-francisco
+      - name: Ivan Smiljanic
+        description: Partner, IPGSF
+        image: "/images/pics/ivans.jpg"
+        linkedin: https://www.linkedin.com/in/ivansmiljanic/
+        location: san-francisco
+      - name: Marko Ugrenovic
+        description: Co-founder, Techsource
+        image: "/images/pics/markou.jpg"
+        linkedin: https://www.linkedin.com/in/markougrenovic/
+        location: san-francisco
+      - name: Perry Narancic
+        description: Principal, LexAnalytica
+        image: "/images/pics/perry.jpg"
+        linkedin: https://www.linkedin.com/in/perrynarancic/
+        location: san-francisco
+      - name: Stefan Savicic
+        description: Co-founder, Nooflux
+        image: "/images/pics/stefansavicic.jpg"
+        linkedin: https://www.linkedin.com/in/stefan-savicic/
+        location: san-francisco
+      - name: Milan Mitrovic
+        description: Co-founder, Smoke & Mirrors
+        image: "/images/pics/milan.jpg"
+        linkedin: https://www.linkedin.com/in/milan-mitrovic-yu/
+        location: san-francisco
+      - name: Zoran Zoran
+        description: Purchasing, Solaria
+        image: "/images/pics/zoran.jpg"
+        linkedin: https://www.linkedin.com/in/zoran-zoran-a15398134/
+        location: san-francisco
+      - name: Nikola Otasevic
+        description: CEO, Refdash
+        image: "/images/pics/nikolao.jpg"
+        linkedin: https://www.linkedin.com/in/nikola-otasevic-4136571a/
+        location: san-francisco
+      - name: Milos Ribic
+        description: Director, Adidas Corporate Venture
+        image: "/images/pics/milosr.jpg"
+        linkedin: https://www.linkedin.com/in/milos-ribic-4164a113/
+        location: san-francisco
+      - name: Nikola Bozinovic
+        description: CEO, Frame
+        image: "/images/pics/nikola.jpg"
+        linkedin: https://www.linkedin.com/in/nikolabozinovic/
+        location: san-francisco
+      - name: Ranko Sredojevic
+        description: CEO, Numericcal
+        image: "/images/pics/ranko.jpg"
+        linkedin: https://www.linkedin.com/in/ranko-r-sredojevic-4b8ba61a/
+        location: san-francisco
+      - name: Stefan Stokic
+        description: CEO, Slik
+        image: "/images/pics/stefanstokic.jpg"
+        linkedin: https://www.linkedin.com/in/stefanstokic/
         location: san-francisco
 
       - name: Filip Bajovic
