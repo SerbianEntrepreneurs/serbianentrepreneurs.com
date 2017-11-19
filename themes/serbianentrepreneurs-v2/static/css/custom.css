@@ -97,16 +97,17 @@ a {
   display: flex;
 }
 
-.menu-link {
+.menu-link, .menu a {
   margin: 0 .5em;
   cursor: pointer;
   font-weight: bold;
   font-size: 1.0em;
+  text-decoration: none;
   color: black;
 }
 
 @media (min-width: 975px) {
-  .menu-link {
+  .menu-link, .menu a {
     color: #fff;
   }
 }
@@ -446,11 +447,11 @@ a {
 }
 
 .press {
-  padding: 10%;
+  padding: 5% 10%;
 }
 
 .contact {
-  padding: 10%;
+  padding: 5% 10%;
 }
 
 .press-header {

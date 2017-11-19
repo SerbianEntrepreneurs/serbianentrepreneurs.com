@@ -25,10 +25,10 @@
   $(document).ready(function() {
     $(".menu li").click(function() {
       var self = this;
-
-      $('html,body').animate({
-        scrollTop: $($(self).attr("data-to")).offset().top
-      });
+      var datato = $($(self).attr("data-to"));
+      if (datato.offset()) {
+        $('html,body').animate({scrollTop:datato.offset().top});
+      }
     })
   });
 </script>
