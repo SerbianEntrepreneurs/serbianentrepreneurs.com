@@ -2,19 +2,21 @@
   {{ partial "header.html" . }}
 </div>
 <div class="main-content">
-  <div class="events" id="events">
+  <div class="events section" id="events">
     {{ partial "events.html" . }}
   </div>
-  <div class="about" id="about">
+  <div class="about section" id="about">
     {{ partial "about.html" . }}
   </div>
   <div class="members" id="members">
-    {{ partial "members.html" . }}
+    <div class="section">
+        {{ partial "members.html" . }}
+    </div>
   </div>
-  <div class="press" id="press">
+  <div class="press section" id="press">
       {{ partial "press.html" . }}
     </div>
-  <div class="contact" id="contact">
+  <div class="contact section" id="contact">
     {{ partial "contact.html" . }}
   </div>
   <div class="footer" id="footer">
