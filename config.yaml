@@ -9,11 +9,11 @@ Params:
     URL: "http://www.serbianentrepreneurs.com"
     SocialImage: "http://www.serbianentrepreneurs.com/images/b-bg.sq.600.png"
     NextMeetingNYC:
-        Month: "November"
-        Day: "29"
+        Month: "December"
+        Day: "13"
     NextMeetingSF:
-        Month: "November"
-        Day: "16"
+        Month: "December"
+        Day: "14"
     description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
     about: "Serbian Entrepreneurs is an apolitical, non-governmental, non-profit organization started in September 2016 in Silicon Valley, by successful entrepreneurs of Serbian descent fostering the Serbian startup ecosystem around the globe through comprehensive access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York. We are next expanding to Los Angeles, California and Novi Sad, Serbia."
     email: "contact@serbianentrepreneurs.com"
@@ -69,11 +69,6 @@ Params:
         image: "/images/pics/lazar.jpg"
         linkedin: https://www.linkedin.com/in/lazarstojkovic/
         location: committee
-      - name: Tihomir Bajić
-        description: VP Engineering, LTSE
-        image: "/images/pics/tiho.jpg"
-        linkedin: https://www.linkedin.com/in/tihomirbajic/
-        location: committee
       - name: Luka Erceg
         description: CEO, Drylet
         image: "/images/pics/luka.jpg"
@@ -84,22 +79,12 @@ Params:
         image: "/images/pics/marko.jpg"
         linkedin: https://www.linkedin.com/in/markomandic/
         location: committee
+      - name: Tihomir Bajić
+        description: VP Engineering, LTSE
+        image: "/images/pics/tiho.jpg"
+        linkedin: https://www.linkedin.com/in/tihomirbajic/
+        location: committee
 
-      - name: Maja Zecevic
-        description: CEO, Opionato
-        image: "/images/pics/maja.jpg"
-        linkedin: https://www.linkedin.com/in/zecevicmaja/
-        location: san-francisco
-      - name: Iva Messy
-        description: Director of HR, Altamont
-        image: "/images/pics/iva.jpg"
-        linkedin: https://www.linkedin.com/in/ivamessy/
-        location: san-francisco
-      - name: Sasha Novakovich
-        description: CEO, Alchemy
-        image: "/images/pics/sasha.jpg"
-        linkedin: https://www.linkedin.com/in/sashanovakovich/
-        location: san-francisco
       - name: Lena Petrovic
         description: Attorney, Perkins
         image: "/images/pics/lena.jpg"
@@ -140,41 +125,12 @@ Params:
         image: "/images/pics/natasa.jpg"
         linkedin: https://www.linkedin.com/in/natasakordic/
         location: san-francisco
-      - name: Tihomir Bajić
-        description: VP Engineering, LTSE
-        image: "/images/pics/tiho.jpg"
-        linkedin: https://www.linkedin.com/in/tihomirbajic/
+      - name: Milijana Curic
+        description: EA, Andreessen Horowitz
+        image: "/images/pics/milijana.jpg"
+        linkedin: https://www.linkedin.com/in/milijanacuric/
         location: san-francisco
-      - name: Lazar Stojković
-        description: Mentor, 500 Startups
-        image: "/images/pics/lazar.jpg"
-        linkedin: https://www.linkedin.com/in/lazarstojkovic/
-        location: san-francisco
-      - name: Dragan Petrovic
-        description: COO, Nura
-        image: "/images/pics/dragan.jpg"
-        linkedin: https://www.linkedin.com/in/dragan-petrovic-a81a74a/
-        location: san-francisco
-      - name: Brano Perkovich
-        description: Investor, SF 49ers
-        image: "/images/pics/brano.jpg"
-        linkedin: https://www.linkedin.com/in/brano-perkovich-346b9a2/
-        location: san-francisco
-      - name: Philip Thomas
-        description: Co-Founder, Moonlight
-        image: "/images/pics/philip.jpg"
-        linkedin: https://www.linkedin.com/in/philipithomas/
-        location: san-francisco
-      - name: Luka Erceg
-        description: CEO, Drylet
-        image: "/images/pics/luka.jpg"
-        linkedin: https://www.linkedin.com/in/lerceg/
-        location: san-francisco
-      - name: Marko Mandic
-        description: CEO, Breza
-        image: "/images/pics/marko.jpg"
-        linkedin: https://www.linkedin.com/in/markomandic/
-        location: san-francisco
+
       - name: John Milinovich
         description: CEO, URX (Exited)
         image: "/images/pics/john.jpg"
@@ -285,16 +241,26 @@ Params:
         image: "/images/pics/stefanstokic.jpg"
         linkedin: https://www.linkedin.com/in/stefanstokic/
         location: san-francisco
+      - name: Nikola Curic
+        description: Corporate FP&A, Shutterfly
+        image: "/images/pics/nikolac.jpg"
+        linkedin: https://www.linkedin.com/in/nikolacuric/
+        location: san-francisco
+      - name: Aca Gacic
+        description: Co-founder & CTO, EmbraceFamily Health
+        image: "/images/pics/acag.jpg"
+        linkedin: https://www.linkedin.com/in/aca-gacic-63a4816/
+        location: san-francisco
+      - name: Nemanja Cerovac
+        description: Co-founder, LaptopFriendly
+        image: "/images/pics/nemanjac.jpg"
+        linkedin: https://www.linkedin.com/in/ncerovac/
+        location: san-francisco
 
       - name: Filip Bajovic
         description: CEO, Label Kings
         image: "/images/pics/filip.jpg"
         linkedin: https://www.linkedin.com/in/filip-bajovic-6a074939/
-        location: new-york
-      - name: Miloš Čitaković
-        description: Founder, Bridge & Fabrika.nyc
-        image: "/images/pics/milos.jpg"
-        linkedin: https://www.linkedin.com/in/citakovic/
         location: new-york
       - name: Sasha Jokic
         description: CEO, Formdwell
@@ -321,7 +287,11 @@ Params:
         image: "/images/pics/aleksj.jpg"
         linkedin: https://www.linkedin.com/in/aleksandar-jovicic-a206bba/
         location: new-york
-
+      - name: Petar Mirovic
+        description: CEO, EnGoPlanet
+        image: "/images/pics/petarm.jpg"
+        linkedin: https://www.linkedin.com/in/petar-mirovic/
+        location: new-york
 
       - name: Nina Montée Karp
         description: Co-founder, Happiest Baby
