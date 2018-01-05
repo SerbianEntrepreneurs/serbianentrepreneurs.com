@@ -9,11 +9,17 @@ Params:
     URL: "http://www.serbianentrepreneurs.com"
     SocialImage: "http://www.serbianentrepreneurs.com/images/b-bg.sq.600.png"
     NextMeetingNYC:
-        Month: "December"
-        Day: "13"
+        Month: "January"
+        Day: "16"
     NextMeetingSF:
-        Month: "December"
-        Day: "14"
+        Month: "January"
+        Day: "18"
+    NextMeetingLA:
+        Month: "January"
+        Day: "31"
+    NextMeetingNS:
+        Month: "January"
+        Day: "23"
     description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
     about: "Serbian Entrepreneurs is an apolitical, non-governmental, non-profit organization started in September 2016 in Silicon Valley, by successful entrepreneurs of Serbian descent fostering the Serbian startup ecosystem around the globe through comprehensive access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York. We are next expanding to Los Angeles, California and Novi Sad, Serbia."
     email: "contact@serbianentrepreneurs.com"
@@ -45,7 +51,7 @@ Params:
         linkedin: https://www.linkedin.com/in/sashanovakovich/
         location: committee
       - name: Dragan Petrovic
-        description: COO, Nura
+        description: CEO, Nura
         image: "/images/pics/dragan.jpg"
         linkedin: https://www.linkedin.com/in/dragan-petrovic-a81a74a/
         location: committee
@@ -129,6 +135,11 @@ Params:
         description: EA, Andreessen Horowitz
         image: "/images/pics/milijana.jpg"
         linkedin: https://www.linkedin.com/in/milijanacuric/
+        location: san-francisco
+      - name: Jelena Ewart
+        description: EIR, 500 Startups
+        image: "/images/pics/jelenae.jpg"
+        linkedin: https://www.linkedin.com/in/jelenaewart/
         location: san-francisco
 
       - name: John Milinovich
@@ -257,6 +268,11 @@ Params:
         linkedin: https://www.linkedin.com/in/ncerovac/
         location: san-francisco
 
+      - name: Tanja Vasiljevic
+        description: Director, Solar Grapes
+        image: "/images/pics/tanjav.jpg"
+        linkedin: https://www.linkedin.com/in/tvasiljevic/
+        location: new-york
       - name: Filip Bajovic
         description: CEO, Label Kings
         image: "/images/pics/filip.jpg"
@@ -291,6 +307,11 @@ Params:
         description: CEO, EnGoPlanet
         image: "/images/pics/petarm.jpg"
         linkedin: https://www.linkedin.com/in/petar-mirovic/
+        location: new-york
+      - name: Petar Markovic
+        description: VP, Goldman Sachs
+        image: "/images/pics/petarmarkovic.jpg"
+        linkedin: https://www.linkedin.com/in/petarmarkovic/
         location: new-york
 
       - name: Nina Montée Karp
