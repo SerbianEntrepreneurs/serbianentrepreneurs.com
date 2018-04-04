@@ -2,3 +2,7 @@
 .s3cfg
 *.swp
 public/
+
+.idea
+
+.idea/workspace.xml

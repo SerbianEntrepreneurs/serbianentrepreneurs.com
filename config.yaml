@@ -8,18 +8,21 @@ baseURL: "http://www.serbianentrepreneurs.com"
 Params:
     URL: "http://www.serbianentrepreneurs.com"
     SocialImage: "http://www.serbianentrepreneurs.com/images/b-bg.sq.600.png"
-    NextMeetingNYC:
-        Month: "January"
-        Day: "16"
     NextMeetingSF:
-        Month: "January"
-        Day: "18"
+        Month: "April"
+        Day: "26"
+    NextMeetingNYC:
+        Month: "April"
+        Day: "26"
     NextMeetingLA:
-        Month: "January"
-        Day: "31"
+        Month: "April"
+        Day: "5"
     NextMeetingNS:
-        Month: "January"
-        Day: "23"
+        Month: "April"
+        Day: "3"
+    NextMeetingBG:
+        Month: "April"
+        Day: "19"
     description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
     about: "Serbian Entrepreneurs is an apolitical, non-governmental, non-profit organization started in September 2016 in Silicon Valley, by successful entrepreneurs of Serbian descent fostering the Serbian startup ecosystem around the globe through comprehensive access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York. We are next expanding to Los Angeles, California and Novi Sad, Serbia."
     email: "contact@serbianentrepreneurs.com"
@@ -34,6 +37,8 @@ Params:
         code: los-angeles
       - name: Novi Sad
         code: novi-sad
+      - name: Belgrade
+        code: belgrade
     Members:
       - name: Maja Zecevic
         description: CEO, Opionato
@@ -267,7 +272,22 @@ Params:
         image: "/images/pics/nemanjac.jpg"
         linkedin: https://www.linkedin.com/in/ncerovac/
         location: san-francisco
+      - name: Bobe Simovich
+        description: Founder/CEO, Iberium Communications
+        image: "/images/pics/bobe.jpg"
+        linkedin: https://www.linkedin.com/in/bobe-slobodan-simovich-26362a/
+        location: san-francisco
 
+      - name: Ana Milicevic
+        description: Co-founder, Sparrow Digital Holdings
+        image: "/images/pics/anam.jpg"
+        linkedin: https://www.linkedin.com/in/amilicevic/
+        location: new-york
+      - name: Miljana Asanovic
+        description: VP Institutional Equity Sales, EFG Hermes
+        image: "/images/pics/miljana.jpg"
+        linkedin: https://www.linkedin.com/in/amilicevic/
+        location: new-york
       - name: Tanja Vasiljevic
         description: Director, Solar Grapes
         image: "/images/pics/tanjav.jpg"
@@ -313,11 +333,56 @@ Params:
         image: "/images/pics/petarmarkovic.jpg"
         linkedin: https://www.linkedin.com/in/petarmarkovic/
         location: new-york
+      - name: Bozidar Jovicevic
+        description: VP, Global Head Digital Medicines, Sanofi
+        image: "/images/pics/bozo.jpg"
+        linkedin: https://www.linkedin.com/in/bjovicevic/
+        location: new-york
+      - name: Francisco Pineda
+        description: Construction Administration Program Director, Columbia University
+        image: "/images/pics/francisco.jpg"
+        linkedin: https://www.linkedin.com/in/francisco-pineda-a2593b/
+        location: new-york
+      - name: Marko Jokic
+        description: Founder, Emporock and Omniarx
+        image: "/images/pics/markoj.jpg"
+        linkedin: https://www.linkedin.com/in/marko-s-jokic/
+        location: new-york
+      - name: Rocko Stojiljkovic
+        description: Co-founder, Molo
+        image: "/images/pics/rocko.jpg"
+        linkedin: https://www.linkedin.com/in/rockosto/
+        location: new-york
 
       - name: Nina Montée Karp
         description: Co-founder, Happiest Baby
         image: "/images/pics/nina.jpg"
         linkedin: https://www.linkedin.com/in/nina-mont%C3%A9e-karp-234a8885/
+        location: los-angeles
+      - name: Branka Knezevic
+        description: President, Plana Architects
+        image: "/images/pics/branka.jpg"
+        linkedin: https://www.linkedin.com/in/brankakristie/
+        location: los-angeles
+      - name: Aleksandra Zimonjic
+        description: Attorney, Landau Gottfried & Berger
+        image: "/images/pics/alexz.jpg"
+        linkedin: https://www.linkedin.com/in/aleksandra-zimonjic-4699b46/
+        location: los-angeles
+      - name: Milica Zec
+        description: Co-founder, New Reality Company
+        image: "/images/pics/milicaz.jpg"
+        linkedin: https://www.linkedin.com/in/milica-zec-25ba8948/
+        location: los-angeles
+      - name: Natasha Mandich
+        description: Partner, Film & Ink Law Group
+        image: "/images/pics/natasham.jpg"
+        linkedin: https://www.linkedin.com/in/natasha-mandich-57037530/
+        location: los-angeles
+      - name: Jelena Cajkanovic
+        description: Sales Engineering, Xilinx
+        image: "/images/pics/jelena.jpg"
+        linkedin: https://www.linkedin.com/in/jelena-cajkanovic/
         location: los-angeles
       - name: Andrej Kostresevic
         description: CEO, Nomads & Expack
@@ -325,9 +390,24 @@ Params:
         linkedin: https://www.linkedin.com/in/andrejkostresevic/
         location: los-angeles
       - name: Slaven Moro
-        description: CEO, Entropia Health
+        description: Engineering Lead, Facebook Connectivity
         image: "/images/pics/slaven.jpg"
         linkedin: https://www.linkedin.com/in/slaven-moro-phd-10b4637/
+        location: los-angeles
+      - name: Andreja Radosevic
+        description: Engineer, FocusMotion
+        image: "/images/pics/andreja.jpg"
+        linkedin: https://www.linkedin.com/in/andreja-radosevic-bb959843/
+        location: los-angeles
+      - name: Mladen Mandich
+        description: Founder/CEO, Twin Rock Media
+        image: "/images/pics/mladen.jpg"
+        linkedin: https://www.linkedin.com/in/mladenmandich/
+        location: los-angeles
+      - name: Alex Bajc
+        description: CEO co-founder, VineOnBrick
+        image: "/images/pics/alexb.jpg"
+        linkedin: https://www.linkedin.com/in/alexbajc/
         location: los-angeles
 
       - name: Marko Gacesa
@@ -351,5 +431,23 @@ Params:
         linkedin: https://www.linkedin.com/in/milanovicnenad/
         location: novi-sad
 
-
-
+      - name: Zoja Kukic
+        description: Partner, SEE ICT
+        image: "/images/pics/zoja.jpg"
+        linkedin: https://www.linkedin.com/in/zojaku/
+        location: belgrade
+      - name: Ognjen Sami
+        description: CEO, Itekako
+        image: "/images/pics/ognjen.jpg"
+        linkedin: https://www.linkedin.com/in/ognjensami/
+        location: belgrade
+      - name: Branimir Rakic
+        description: Co-founder/CTO, OriginTrail
+        image: "/images/pics/branimir.jpg"
+        linkedin: https://www.linkedin.com/in/branimirrakic/
+        location: belgrade
+      - name: Ivan Bjelajac
+        description: CEO, Devana
+        image: "/images/pics/ivanb.jpg"
+        linkedin: https://www.linkedin.com/in/ivanbjelajac/
+        location: belgrade
