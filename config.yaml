@@ -9,20 +9,32 @@ Params:
     URL: "http://www.serbianentrepreneurs.com"
     SocialImage: "http://www.serbianentrepreneurs.com/images/b-bg.sq.600.png"
     NextMeetingSF:
-        Month: "April"
-        Day: "26"
+        Month: "September"
+        Day: "25"
     NextMeetingNYC:
-        Month: "April"
-        Day: "26"
+        Month: "September"
+        Day: "12"
     NextMeetingLA:
         Month: "April"
         Day: "5"
     NextMeetingNS:
-        Month: "April"
-        Day: "3"
+        Month: "September"
+        Day: "17"
     NextMeetingBG:
         Month: "April"
         Day: "19"
+    NextMeetingTO:
+        Month: "September"
+        Day: "4"
+    NextMeetingBE:
+        Month: "September"
+        Day: "18"
+    NextMeetingMI:
+        Month: "September"
+        Day: "10"
+    NextMeetingLO:
+        Month: "September"
+        Day: "24"
     description: "A pay-it-forward global network of entrepreneurs fostering the Serbian startup ecosystem."
     about: "Serbian Entrepreneurs is an apolitical, non-governmental, non-profit organization started in September 2016 in Silicon Valley, by successful entrepreneurs of Serbian descent fostering the Serbian startup ecosystem around the globe through comprehensive access to skills, resources, and mentorship. We promote entrepreneurship through empowering the pay-it-forward activities of our members. Our 75 referral-based members are accomplished founders, investors, engineering leaders, and startup executives that together form a deeply vested network. Our monthly meetings provide a learning, operations, networking, and investment platform and take place in our founding city chapters: San Francisco and New York. We are next expanding to Los Angeles, California and Novi Sad, Serbia."
     email: "contact@serbianentrepreneurs.com"
