@@ -4,7 +4,7 @@ config:                     "config.yaml"
 defaultExtension:           "md"
 MetaDataFormat:             "yaml"
 LanguageCode:               "en"
-baseURL: "http://www.serbianentrepreneurs.com"
+baseURL: "https://www.serbianentrepreneurs.com"
 Params:
     URL: "http://www.serbianentrepreneurs.com"
     SocialImage: "http://www.serbianentrepreneurs.com/images/b-bg.sq.600.png"
@@ -58,7 +58,7 @@ Params:
         linkedin: https://www.linkedin.com/in/zecevicmaja/
         location: committee
       - name: Iva Messy
-        description: Director of HR, Altamont
+        description: HR Partner, Andreessen Horowitz
         image: "/images/pics/iva.jpg"
         linkedin: https://www.linkedin.com/in/ivamessy/
         location: committee
