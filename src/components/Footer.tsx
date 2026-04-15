@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -8,10 +8,9 @@ export default function Footer() {
           <div className="footer-row-1">
             <div className="footer-logo-bx">
               <Link href="/" className="w-inline-block">
-                <img src="/images/Logo1.png" loading="lazy" alt="" />
+                <img src="/images/Logo1.png" alt="Serbian Entrepreneurs logo" />
               </Link>
             </div>
-            <img src="/placeholder.svg" loading="lazy" alt="" />
             <div className="footer-links-wrapper">
               <div className="footer-link-item-bx">
                 <a href="#" className="ft-link-item d-none">
@@ -29,14 +28,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <img src="/placeholder.svg" loading="lazy" alt="" />
           <div className="footer-row-2">
             <div className="footer-social-icon-wrapper">
               <a
                 href="https://twitter.com/SerbianEnt"
                 className="social-link-block w-inline-block"
               >
-                <img src="/images/twitter.svg" loading="lazy" alt="" />
+                <img src="/images/twitter.svg" alt="Twitter" />
               </a>
               <a
                 href="https://blog.serbianentrepreneurs.com/"
@@ -44,9 +42,8 @@ export default function Footer() {
               >
                 <img
                   src="/images/medium.svg"
-                  loading="lazy"
                   width="10"
-                  alt=""
+                  alt="Medium"
                   className="image-27"
                 />
               </a>
@@ -56,8 +53,7 @@ export default function Footer() {
               >
                 <img
                   src="/images/linkedin.svg"
-                  loading="lazy"
-                  alt=""
+                  alt="LinkedIn"
                   className="image-28"
                 />
               </a>
@@ -75,5 +71,5 @@ export default function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import { useState } from "react";
-import Link from "next/link";
+import { useState } from 'react'
+import Link from 'next/link'
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <div
@@ -20,15 +20,14 @@ export default function Navbar() {
         <Link href="/" className="logo-link-bx w-nav-brand">
           <img
             src="/images/Logo.png"
-            loading="lazy"
             width="Auto"
-            alt=""
+            alt="Serbian Entrepreneurs logo"
             className="se-logo-main"
           />
         </Link>
         <nav
           role="navigation"
-          className={`nav-menu w-nav-menu${menuOpen ? " w--open" : ""}`}
+          className={`nav-menu w-nav-menu${menuOpen ? ' w--open' : ''}`}
         >
           <a href="#" className="nv-link-item d-none w-nav-link">
             About
@@ -39,7 +38,10 @@ export default function Navbar() {
           <a href="#" className="nv-link-item d-none w-nav-link">
             Press
           </a>
-          <a href="#" className="nv-link-item w-nav-link">
+          <a
+            href="mailto:contact@serbianentrepreneurs.com"
+            className="nv-link-item w-nav-link"
+          >
             Contact
           </a>
           <a href="#" className="btn nav-login-btn d-none w-button">
@@ -47,12 +49,12 @@ export default function Navbar() {
           </a>
         </nav>
         <div
-          className={`menu-button w-nav-button${menuOpen ? " w--open" : ""}`}
+          className={`menu-button w-nav-button${menuOpen ? ' w--open' : ''}`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <div className="icon w-icon-nav-menu"></div>
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Link from 'next/link'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -38,8 +38,7 @@ export default function Home() {
                 <div className="div-block-2">
                   <img
                     src="/images/Icon.svg"
-                    loading="lazy"
-                    alt=""
+                    alt="Members icon"
                     className="image-25"
                   />
                   <h1 className="heading-7">250+</h1>
@@ -50,8 +49,7 @@ export default function Home() {
                 <div className="div-block-2">
                   <img
                     src="/images/Icon-1.svg"
-                    loading="lazy"
-                    alt=""
+                    alt="Events icon"
                     className="image-25"
                   />
                   <h1 className="heading-7">221+</h1>
@@ -62,8 +60,7 @@ export default function Home() {
                 <div className="div-block-2 lst">
                   <img
                     src="/images/Icon-2.svg"
-                    loading="lazy"
-                    alt=""
+                    alt="Startups icon"
                     className="image-25"
                   />
                   <h1 className="heading-7">120+</h1>
@@ -118,10 +115,9 @@ export default function Home() {
                   </div>
                   <img
                     src="/images/Image.png"
-                    loading="lazy"
                     sizes="(max-width: 479px) 100vw, (max-width: 566px) 96vw, (max-width: 767px) 544px, (max-width: 991px) 354px, 460px"
                     srcSet="/images/Image-p-500.png 500w, /images/Image.png 544w"
-                    alt=""
+                    alt="Members collaborating at a Serbian Entrepreneurs meeting"
                     className="image-26"
                   />
                 </div>
@@ -144,8 +140,9 @@ export default function Home() {
                 <div className="w-layout-cell cell-2">
                   <img
                     src="/images/Group-63039_1Group-63039.png"
-                    loading="lazy"
-                    alt=""
+                    alt="Learn pillar icon"
+                    width={76}
+                    height={75}
                   />
                 </div>
                 <div className="w-layout-cell">
@@ -161,7 +158,12 @@ export default function Home() {
             <div className="w-layout-cell">
               <div className="w-layout-layout quick-stack wf-layout-layout">
                 <div className="w-layout-cell cell-2">
-                  <img src="/images/Group-63040.png" loading="lazy" alt="" />
+                  <img
+                    src="/images/Group-63040.png"
+                    alt="Connect pillar icon"
+                    width={76}
+                    height={76}
+                  />
                 </div>
                 <div className="w-layout-cell">
                   <h1 className="heading-11">Connect</h1>
@@ -176,7 +178,12 @@ export default function Home() {
             <div className="w-layout-cell">
               <div className="w-layout-layout quick-stack wf-layout-layout">
                 <div className="w-layout-cell cell-2">
-                  <img src="/images/Group-63046.png" loading="lazy" alt="" />
+                  <img
+                    src="/images/Group-63046.png"
+                    alt="Grow pillar icon"
+                    width={62}
+                    height={74}
+                  />
                 </div>
                 <div className="w-layout-cell">
                   <h1 className="heading-11">Grow</h1>
@@ -190,7 +197,12 @@ export default function Home() {
             <div className="w-layout-cell">
               <div className="w-layout-layout quick-stack wf-layout-layout">
                 <div className="w-layout-cell cell-2">
-                  <img src="/images/Group-63041.png" loading="lazy" alt="" />
+                  <img
+                    src="/images/Group-63041.png"
+                    alt="Foster pillar icon"
+                    width={65}
+                    height={79}
+                  />
                 </div>
                 <div className="w-layout-cell">
                   <h1 className="heading-11">Foster</h1>
@@ -238,10 +250,9 @@ export default function Home() {
             <div className="w-col w-col-6">
               <img
                 src="/images/Lifestyle-Pic.jpg"
-                loading="lazy"
                 sizes="100vw"
                 srcSet="/images/Lifestyle-Pic-p-500.jpg 500w, /images/Lifestyle-Pic.jpg 587w"
-                alt=""
+                alt="Two entrepreneurs discussing a presentation on a computer screen"
                 className="image-29"
               />
             </div>
@@ -321,8 +332,7 @@ export default function Home() {
               <div className="column w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <img
                   src="/images/Member-Pic16.jpg"
-                  loading="lazy"
-                  alt=""
+                  alt="Aleksandra Strang, Board of Directors"
                   className="image-6"
                 />
                 <h2 className="heading-2">Aleksandra Strang</h2>
@@ -330,16 +340,15 @@ export default function Home() {
               <div className="column-2 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <img
                   src="/images/Member-Pic23.jpg"
-                  loading="lazy"
-                  alt=""
+                  alt="Tihomir Bajic, Board of Directors"
                   className="image-12"
                 />
+                <h2 className="heading-2">Tihomir Bajic</h2>
               </div>
               <div className="column-3 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <img
                   src="/images/Member-Pic18.jpg"
-                  loading="lazy"
-                  alt=""
+                  alt="Brano Perkovich, Board of Directors"
                   className="image-8"
                 />
                 <h2 className="heading-2">Brano Perkovich</h2>
@@ -347,8 +356,7 @@ export default function Home() {
               <div className="column-4 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <img
                   src="/images/Member-Pic19.jpg"
-                  loading="lazy"
-                  alt=""
+                  alt="Milos Citakovic, Board of Directors"
                   className="image-9"
                 />
                 <h2 className="heading-2">
@@ -357,19 +365,16 @@ export default function Home() {
                 </h2>
               </div>
             </div>
-            <h2 className="heading-2">Tihomir Bajic</h2>
             <div className="columns-2 team-custom w-row">
               <div className="column w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <img
                   src="/images/Member-Pic21.jpg"
-                  loading="lazy"
-                  alt=""
+                  alt="Sasa Krsmanovic, Board of Directors"
                   className="image-11"
                 />
-              </div>
-              <div className="column-7 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
                 <h2 className="heading-2">Sasa Krsmanovic</h2>
               </div>
+              <div className="column-7 w-col w-col-3 w-col-medium-6 w-col-small-small-stack"></div>
               <div className="column-8 w-col w-col-3 w-col-medium-6 w-col-small-small-stack"></div>
               <div className="column-20 w-col w-col-3 w-col-medium-6 w-col-small-small-stack"></div>
             </div>
@@ -391,8 +396,7 @@ export default function Home() {
             <div className="column w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic19.jpg"
-                loading="lazy"
-                alt=""
+                alt="Milos Citakovic, Chapter Lead NYC"
                 className="image-13"
               />
               <h2 className="heading-2 chapert-h2">Milos Citakovic</h2>
@@ -401,8 +405,7 @@ export default function Home() {
             <div className="column-11 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic21.jpg"
-                loading="lazy"
-                alt=""
+                alt="Sasa Krsmanovic, Chapter Lead Toronto"
                 className="image-14"
               />
               <h2 className="heading-2 chapert-h2">Sasa Krsmanovic</h2>
@@ -411,8 +414,7 @@ export default function Home() {
             <div className="column-12 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic24.jpg"
-                loading="lazy"
-                alt=""
+                alt="Marko Mandic, Chapter Lead Boston"
                 className="image-15"
               />
               <h2 className="heading-2 chapert-h2">Marko Mandic</h2>
@@ -421,8 +423,7 @@ export default function Home() {
             <div className="column-13 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic25.jpg"
-                loading="lazy"
-                alt=""
+                alt="Dragan Petrovic, Chapter Lead San Francisco"
                 className="image-16"
               />
               <h2 className="heading-2 chapert-h2">
@@ -436,16 +437,16 @@ export default function Home() {
             <div className="column w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic34.jpg"
-                loading="lazy"
-                alt=""
+                alt="Filip Perisic, Chapter Lead Berlin"
                 className="image-22"
               />
+              <h2 className="heading-2 chapert-h2">Filip Perisic</h2>
+              <div className="text-block-9">berlin</div>
             </div>
             <div className="column-14 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic28.jpg"
-                loading="lazy"
-                alt=""
+                alt="Alex Paunic, Chapter Lead Miami"
                 className="image-18"
               />
               <h2 className="heading-2 chapert-h2">Alex Paunic</h2>
@@ -454,31 +455,18 @@ export default function Home() {
             <div className="column-15 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic35.jpg"
-                loading="lazy"
-                alt=""
+                alt="Vladimir Corda, Chapter Lead Banja Luka"
                 className="image-23"
               />
+              <h2 className="heading-2 chapert-h2">Vladimir Corda</h2>
+              <div className="text-block-9">banja luka</div>
             </div>
             <div className="column-16 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <img
                 src="/images/Member-Pic36.jpg"
-                loading="lazy"
-                alt=""
+                alt="Srdjan Sukara, Chapter Lead Banja Luka"
                 className="image-24"
               />
-            </div>
-          </div>
-          <div className="columns-2 team-custom w-row">
-            <div className="column w-col w-col-3 w-col-medium-6 w-col-small-small-stack"></div>
-            <div className="column-17 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
-              <h2 className="heading-2 chapert-h2">Filip Perisic</h2>
-              <div className="text-block-9">berlin</div>
-            </div>
-            <div className="column-18 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
-              <h2 className="heading-2 chapert-h2">Vladimir Corda</h2>
-              <div className="text-block-9">banja luka</div>
-            </div>
-            <div className="column-19 w-col w-col-3 w-col-medium-6 w-col-small-small-stack">
               <h2 className="heading-2 chapert-h2">Srdjan Sukara</h2>
               <div className="text-block-9">banja luka</div>
             </div>
@@ -493,10 +481,9 @@ export default function Home() {
             <div className="column-24 w-col w-col-6">
               <img
                 src="/images/Lifestyle-Pic1.jpg"
-                loading="lazy"
                 sizes="100vw"
                 srcSet="/images/Lifestyle-Pic1-p-500.jpg 500w, /images/Lifestyle-Pic1.jpg 587w"
-                alt=""
+                alt="Entrepreneurs reviewing analytics at a collaborative workspace"
                 className="image-30"
               />
             </div>
@@ -514,7 +501,7 @@ export default function Home() {
                   <div>December 9</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
               <div className="div-block-5">
@@ -523,7 +510,7 @@ export default function Home() {
                   <div>December 12</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
               <div className="div-block-5">
@@ -532,7 +519,7 @@ export default function Home() {
                   <div>December 17</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
               <div className="div-block-5">
@@ -541,7 +528,7 @@ export default function Home() {
                   <div>December 17</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
               <div className="div-block-5">
@@ -550,7 +537,7 @@ export default function Home() {
                   <div>December 18</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
               <div className="div-block-5">
@@ -559,7 +546,7 @@ export default function Home() {
                   <div>December 27</div>
                 </div>
                 <a href="#" className="w-inline-block">
-                  <img src="/images/Arrow-1.png" loading="lazy" alt="" />
+                  <img src="/images/Arrow-1.png" alt="View event details" />
                 </a>
               </div>
             </div>
@@ -570,5 +557,5 @@ export default function Home() {
       <Footer />
       <div className="w-embed"></div>
     </div>
-  );
+  )
 }

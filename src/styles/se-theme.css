@@ -814,7 +814,7 @@ li {
   border-bottom: 1px #898989;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 40px;
   padding-bottom: 0;
   display: flex;
@@ -1751,6 +1751,16 @@ li {
   padding-right: 40px;
 }
 
+.columns-2,
+.columns-3,
+.columns-4,
+.columns-5,
+.columns-6,
+.columns-7,
+.columns-8 {
+  column-count: auto;
+}
+
 .columns-2 {
   margin-bottom: 10px;
 }
@@ -2011,6 +2021,8 @@ li {
   align-self: center;
   width: 100%;
   padding: 56px 40px;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
 }
 
 .cell-2 {
@@ -2079,6 +2091,7 @@ li {
 .list {
   margin-bottom: 40px;
   padding-left: 0;
+  list-style-type: disc;
 }
 
 .cont {
@@ -2177,6 +2190,8 @@ li {
 .quick-stack-3 {
   padding-left: 0;
   padding-right: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 
 .div-block-6 {
